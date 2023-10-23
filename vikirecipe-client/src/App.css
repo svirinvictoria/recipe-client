@@ -4,24 +4,42 @@
 
 
 .App-header {
-  background-color: #282c34;
-  min-height: 10vh;
+  /* background-color: #282c34; */
+  background-color:black;
+  min-height: 40vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+
 }
 
 .App-link {
   color: #61dafb;
 }
+.hp-intro{
+  width: 50%;
+  font-size: 1rem;
+  margin-bottom: 2%;
+}
 
+.categ-box{
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+.categ-button{
+  border: 2px solid white;
+  border-radius: 6px;
+  background-color: black;
+  padding:0.05rem 0.5rem;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  width: 20%;
+}
 .gray{
   background-color: #ccc;
   height: 5rem;
-}
-.collection-style{
-  background-color: blue;
 }
