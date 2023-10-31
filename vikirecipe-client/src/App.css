@@ -56,7 +56,7 @@
   font-weight: 400;
   padding-top: 5%;
 }
-.brkfst__box{
+.rcp__box{
   display: flex;
   flex-wrap: wrap;
   padding: 5%;
@@ -81,9 +81,12 @@
 }
 .rcp-shrt-descr{
   margin: 10%;
+  font-size: 1rem;
+  text-transform:capitalize;
 }
 .rcp-link{
-  font-size: 90%;
+  font-size: 0.9rem;
+  text-transform:lowercase;
 }
 .lnch-list{
   background-color:#a9a5a5;

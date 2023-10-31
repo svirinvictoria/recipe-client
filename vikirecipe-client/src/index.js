@@ -12,7 +12,6 @@ root.render(
     <BrowserRouter> 
     <Root />
     </BrowserRouter>
-   
   </React.StrictMode>
 );
 
