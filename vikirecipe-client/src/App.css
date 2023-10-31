@@ -1,3 +1,7 @@
+*{
+  padding: 0;
+  margin: 0;
+}
 .App {
   text-align: center;
 }
@@ -42,4 +46,45 @@
 .gray{
   background-color: #ccc;
   height: 5rem;
+}
+.brkfst-list{
+  background-color: lightgray;
+}
+.list__heading{
+  text-transform: uppercase;
+  font-size: 2.7rem;
+  font-weight: 400;
+  padding-top: 5%;
+}
+.brkfst__box{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5%;
+}
+.rcp-mini-box{
+  height: 25rem;
+  background-color: white;
+  width: 20%;
+  border: 1.5px solid black;
+  margin: 3% auto;
+}
+.rcp-picture{
+  height: 10rem;
+  width: 80%;
+  background-color: black;
+  margin: 10% auto;
+  
+}
+.rcp-name{
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.rcp-shrt-descr{
+  margin: 10%;
+}
+.rcp-link{
+  font-size: 90%;
+}
+.lnch-list{
+  background-color:#a9a5a5;
 }
